@@ -24,7 +24,7 @@ def main():
     nums = [4,1,2,1,2]
     print(Solution().singleNumber(nums))
 
-    nums2 = [1]
+    nums2 = [1,3,3]
     print(Solution().singleNumber2(nums2))
 
 if __name__ == "__main__":
