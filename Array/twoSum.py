@@ -12,7 +12,7 @@ def twoSum(nums, target):
     for i,key in enumerate(nums):
         num_dict[key] = i
 
-    result = list()
+    result = []
     for i in range(len(nums)):
 
         #num_dict keys
@@ -23,7 +23,7 @@ def twoSum(nums, target):
         y_value = num_dict.get(y,None)
 
         if y_value is not None and y_value !=i:
-            result = list([i, y_value])
+            result = [i, y_value]
 
     return result
 
