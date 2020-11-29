@@ -34,7 +34,7 @@ def main():
     nums = [0,1,0,3,12]
     # print(f"Solution = {Solution().moveZeroes(nums)}")
 
-    nums2 = [1,0,0,3,3]
+    nums3 = [1,0,0,3,3]
     # print(Solution().moveZeroes(nums2))
 
     nums2 = [1,0,0,3,0,7,6,3]
